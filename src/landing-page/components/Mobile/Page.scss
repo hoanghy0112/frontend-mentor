@@ -1,0 +1,146 @@
+
+.main-page {
+   header {
+      padding: 30px;
+
+      background: 
+         url(../../images/bg-pattern-intro-mobile.svg),
+         linear-gradient(
+            135deg, 
+            var(--very-light-red), 
+            var(--light-red));
+      background-position: -120px 0px;
+      background-size: 200%;
+      background-repeat: no-repeat;
+
+      border-bottom-left-radius: 70px;
+
+      .introduction {
+         padding: 50px 0px;
+         color: white;
+         text-align: center;
+
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+
+         & > h1 {
+            font-family: 'Overpass';
+            font-weight: 600;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+         }
+
+         & > p {
+            font-family: 'Overpass';
+            font-weight: 300;
+            font-size: 1.2rem;
+            margin-bottom: 35px;
+         }
+
+         .button-group {
+            display: flex;
+            gap: 15px;
+         }
+      }
+   }
+
+   .mobile-illustration {
+      position: absolute;
+      z-index: 2;
+
+      width: 100%;
+   }
+
+   article {
+      margin: 40px 0;
+      padding: 20px;
+
+      text-align: center;
+
+      display: grid;
+      gap: 30px;
+
+      overflow: hidden;
+
+      font-family: 'Overpass', sans-serif;
+
+      h2 {
+         font-weight: 600;
+         font-size: 1.5rem;
+         color: var(--very-dark-grayish-blue);
+      }
+
+      img {
+         width: 100%;
+         object-fit: contain;
+      }
+
+      &.dark {
+         background: 
+            linear-gradient(
+               180deg, 
+               var(--very-dark-gray-blue),
+               var(--very-dark-saturated-blue));
+
+         padding-top: 200px;
+         padding-bottom: 100px;
+
+         position: relative;
+
+         margin-top: 220px;
+
+         border-top-right-radius: 70px;
+         border-bottom-left-radius: 70px;
+
+         img {
+            width: 150%;
+            left: -25%;
+            top: -180px;
+            position: absolute;
+            object-position: center;
+         }
+
+         h2 {
+            font-size: 2rem;
+         }
+         
+         p {
+            line-height: 1.6rem;
+         }
+
+         p, h2 {
+            z-index: 2;
+            color: white;
+         }
+      }
+   }
+
+   footer {
+      background-color: var(--very-dark-black-blue);
+      text-align: center;
+      padding: 100px 0;
+      border-top-right-radius: 100px;
+
+      color: white;
+
+      display: flex;
+      flex-direction: column;
+      gap: 45px;
+
+      align-items: center;
+
+      img {
+         margin-bottom: 20px;
+      }
+
+      div {
+         h4 {
+            margin-bottom: 10px;
+         }
+
+         display: grid;
+         gap: 10px;
+      }
+   }
+}

@@ -1,0 +1,42 @@
+.App {
+  font-family: 'Red Hat Text', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+
+  --grayish-blue: hsl(237, 18%, 59%);
+  --soft-red: hsl(345, 95%, 68%);
+  --very-dark-desaturated-blue: hsl(237, 19%, 21%);
+  --dark-desaturated-blue: hsl(236, 21%, 26%);
+  --dark-blue: hsl(235, 16%, 14%);
+  --very-dark-blue: hsl(234, 17%, 12%);
+
+   width: 100%;
+   min-height: 100vh;
+   background: url(./images/bg-stars.svg), var(--dark-blue);
+
+   display: grid;
+   place-items: center;
+
+   .pattern-hills {
+      display: block;
+      width: 100%;
+      align-self: flex-end;
+   }
+
+   main {
+      h1 {
+         text-align: center;
+         color: white;
+         letter-spacing: 12px;
+         text-transform: uppercase;
+         margin: 100px auto;
+      }
+   }
+
+   .calendar-wrapper {
+      display: flex;
+      position: relative;
+      gap: 20px;
+   }
+}
