@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7bddaeb4.css",
+    "main.js": "./static/js/main.69a2cf53.js",
+    "static/media/illustration-phones.svg": "./static/media/illustration-phones.fd23559f1d2f81f9e3f3340eeaf2467c.svg",
+    "static/media/logo.svg": "./static/media/logo.1591bc20b914c098a9cd6e423b1623c3.svg",
+    "static/media/illustration-laptop-mobile.svg": "./static/media/illustration-laptop-mobile.fe1ec0f05da01bb067fa78fca0b79d76.svg",
+    "static/media/illustration-editor-mobile.svg": "./static/media/illustration-editor-mobile.b9c7941a96d06832fa27673be37499a4.svg",
+    "static/media/bg-stars.svg": "./static/media/bg-stars.166881a1c03d6b1239f5.svg",
+    "static/media/bg-pattern-intro-mobile.svg": "./static/media/bg-pattern-intro-mobile.3d70cc0d02948cb77851.svg",
+    "static/media/pattern-hills.svg": "./static/media/pattern-hills.815d688fd937623063b5c111be9fc999.svg",
+    "index.html": "./index.html",
+    "static/media/bg-pattern-circles.svg": "./static/media/bg-pattern-circles.bae804b8cc1519f26c944365280d192b.svg",
+    "static/media/icon-close.svg": "./static/media/icon-close.c6580312401807bc9f98867a80e2bc37.svg",
+    "static/media/icon-hamburger.svg": "./static/media/icon-hamburger.68867946847c3249542e85c3745a1e06.svg",
+    "static/media/icon-arrow-dark.svg": "./static/media/icon-arrow-dark.5215f8d979a83644d14e8b69f6ee4633.svg",
+    "main.7bddaeb4.css.map": "./static/css/main.7bddaeb4.css.map",
+    "main.69a2cf53.js.map": "./static/js/main.69a2cf53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bddaeb4.css",
+    "static/js/main.69a2cf53.js"
+  ]
+}
