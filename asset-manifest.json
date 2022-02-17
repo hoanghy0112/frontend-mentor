@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7bddaeb4.css",
-    "main.js": "./static/js/main.69a2cf53.js",
+    "main.js": "./static/js/main.575eaee9.js",
     "static/media/illustration-phones.svg": "./static/media/illustration-phones.fd23559f1d2f81f9e3f3340eeaf2467c.svg",
     "static/media/logo.svg": "./static/media/logo.1591bc20b914c098a9cd6e423b1623c3.svg",
     "static/media/illustration-laptop-mobile.svg": "./static/media/illustration-laptop-mobile.fe1ec0f05da01bb067fa78fca0b79d76.svg",
@@ -15,10 +15,10 @@
     "static/media/icon-hamburger.svg": "./static/media/icon-hamburger.68867946847c3249542e85c3745a1e06.svg",
     "static/media/icon-arrow-dark.svg": "./static/media/icon-arrow-dark.5215f8d979a83644d14e8b69f6ee4633.svg",
     "main.7bddaeb4.css.map": "./static/css/main.7bddaeb4.css.map",
-    "main.69a2cf53.js.map": "./static/js/main.69a2cf53.js.map"
+    "main.575eaee9.js.map": "./static/js/main.575eaee9.js.map"
   },
   "entrypoints": [
     "static/css/main.7bddaeb4.css",
-    "static/js/main.69a2cf53.js"
+    "static/js/main.575eaee9.js"
   ]
 }
